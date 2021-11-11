@@ -1,0 +1,46 @@
+.accountCreateForm {
+    display: table-cell;
+    vertical-align: middle;
+    width: 76%;
+}
+
+.textField {
+    display: block;
+    width: 100%;
+    padding: 9px 13px 9px;
+    border: 1px solid #d9dde2;
+    border-radius: 3px;
+    background-color: #fff;
+    color: #333;
+    font-size: 13px;
+    position: relative;
+    max-width: 420px;
+}
+
+.required {
+    margin: 0 0 10px 0;
+    color: #93a0ab;
+    word-wrap: break-word;
+}
+
+.createAccountButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #ffe400;
+    box-shadow: 0 5px 20px rgb(237 212 0 / 30%);
+    border-radius: 5px;
+
+    height: 38px;
+    padding: 7px 30px;
+    margin-left: 80%;
+    margin-top: 30px;
+
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+}
